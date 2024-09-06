@@ -3,10 +3,15 @@
     margin: 0;
 }
 
+body {
+    background-color: #2E3239;
+    color: #fff;
+}
 
 .inicio {
     /*background: red;*/
     padding: 40px 80px 0 80px !important;
+    color: #26292B;
 }
 
 /*
@@ -19,17 +24,27 @@
 
 .inicio-sub {
     margin-bottom: 20px;
+    background-color: #A2B2EE;
+    border: 8px solid #5F7ADB;
+    border-radius: 30px;
+    padding: 5px;
 }
 .inicio-sub-h1 {
     margin-bottom: 10px;
+    color: #26292B;
+    font-size: 40px;
 }
 
 .listas{
     width: 100%;
+    color: #fff;
+    background-color: #A2B2EE;
+    border-radius: 30px;
+    border: 8px solid #5F7ADB;
+    color: #26292B;
 }
 
 .listas-imagenes {
-    background-color: blue;
     width: 100%;
 }
 
@@ -60,5 +75,13 @@
 }
 
 .listas-li-4 {
+    margin-top: 30px;
+}
+
+.listas-li-5 {
+    margin-top: 30px;
+}
+
+.listas-li-6 {
     margin-top: 30px;
 }
